@@ -1,8 +1,6 @@
-.streamers img
-{
-    width: 40px;
-    margin: 0 15px 0 0;
-}
+/***********************************************
+              C O N T A I N E R S
+***********************************************/
 .container
 {
     font-family: 'Open Sans', sans-serif;
@@ -14,6 +12,9 @@
     justify-content: space-between;
     align-items: center;
 }
+/***********************************************
+                 F L E X B O X
+***********************************************/
 .row
 {
     flex-direction: row;
@@ -31,10 +32,9 @@
     justify-content: center;
     align-items: center;
 }
-.offline span:nth-child(2)
-{
-    font-size: .7em;
-}
+/***********************************************
+               S T R E A M E R S
+***********************************************/
 #streamers
 {
     position: relative;
@@ -50,34 +50,12 @@
 {
     display: none;
 }
-
-.delete i
+.streamers img
 {
-    font-size: 1.25em;
-
-    margin: 9px;
-    padding: 0;
-
-    cursor: pointer;
+    width: 40px;
+    margin: 0 15px 0 0;
 }
-.i-fix
-{
-    display: flex;
 
-    justify-content: center;
-    align-items: center;
-}
-.offline
-{
-    opacity: .6;
-}
-.offline.delete
-{
-    margin: 0;
-    padding: 0;
-
-    /*  opacity: 1;*/
-}
 .streamers
 {
     display: flex;
@@ -89,19 +67,6 @@
 
     justify-content: flex-start;
     align-items: center;
-}
-.info
-{
-    line-height: 14px;
-
-    display: flex;
-    flex-direction: column;
-}
-.info span:nth-child(2)
-{
-    font-size: .95em;
-
-    opacity: .9;
 }
 .streamers span:nth-child(3)
 {
@@ -115,10 +80,91 @@
     color: rgba(255,255,255,1);
     background: #201c2b;
 }
+/***********************************************
+      O F F L I N E   AND   D E L E T E
+***********************************************/
+.offline span:nth-child(2)
+{
+    font-size: .7em;
+}
+.offline
+{
+    opacity: .6;
+}
+.offline.delete
+{
+    margin: 0;
+    padding: 0;
+
+    /*  opacity: 1;*/
+}
+.delete i
+{
+    font-size: 1.25em;
+
+    margin: 9px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+/***********************************************
+            N A V I G A T I O N
+***********************************************/
+.navigation span:hover
+{
+    background: #201c2b;
+}
 .navigation
 {
     color: white;
 }
+.navigation
+{
+    font-weight: 100;
+
+    width: inherit;
+    padding: 7px 15px 0 15px;
+}
+.navigation span
+{
+    width: 75px;
+    margin: 0 5px;
+    padding: 10px;
+
+    cursor: pointer;
+    text-align: center;
+
+    background: #6441a4;
+}
+
+/***********************************************
+            
+***********************************************/
+
+
+.i-fix
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    line-height: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+.info span:nth-child(2)
+{
+    font-size: .95em;
+
+    opacity: .9;
+}
+
 
 /*.wrap .streamers
 {
@@ -223,24 +269,7 @@
     color: #b9a3e3;
 }
 
-.navigation
-{
-    font-weight: 100;
 
-    width: inherit;
-    padding: 7px 15px 0 15px;
-}
-.navigation span
-{
-    width: 75px;
-    margin: 0 5px;
-    padding: 10px;
-
-    cursor: pointer;
-    text-align: center;
-
-    background: #6441a4;
-}
 hr
 {
     width: 90%;
@@ -248,10 +277,7 @@ hr
     opacity: .1;
     color: white;
 }
-.navigation span:hover
-{
-    background: #201c2b;
-}
+
 .prime
 {
     font-weight: 400;
@@ -318,7 +344,7 @@ hr
     height: 200px;
 
     color: rgba(250,250,250,.8);
-    background: inherit;  justify-content: center; align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;justify-content: center; align-items: center; flex-wrap: wrap;
+    background: inherit;  justify-content: center; align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;justify-content: center; align-items: center; flex-wrap: wrap;
 }
 
 .more div
