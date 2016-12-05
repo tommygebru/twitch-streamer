@@ -1,0 +1,349 @@
+.streamers img
+{
+    width: 40px;
+    margin: 0 15px 0 0;
+}
+.container
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85em;
+    font-weight: 400;
+
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.row
+{
+    flex-direction: row;
+}
+.flex
+{
+    display: flex;
+}
+.column
+{
+    flex-direction: column;
+}
+.center
+{
+    justify-content: center;
+    align-items: center;
+}
+.offline span:nth-child(2)
+{
+    font-size: .7em;
+}
+#streamers
+{
+    position: relative;
+
+    overflow-x: hidden;
+
+    width: 20vw;
+    height: 100vh;
+
+    background: #17141f;
+}
+#streamers::-webkit-scrollbar
+{
+    display: none;
+}
+
+.delete i
+{
+    font-size: 1.25em;
+
+    margin: 9px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.i-fix
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.offline
+{
+    opacity: .6;
+}
+.offline.delete
+{
+    margin: 0;
+    padding: 0;
+
+    /*  opacity: 1;*/
+}
+.streamers
+{
+    display: flex;
+
+    height: 55px;
+    padding: 0 15px 0 30px;
+
+    color: rgba(250,250,250,.7);
+
+    justify-content: flex-start;
+    align-items: center;
+}
+.info
+{
+    line-height: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+.info span:nth-child(2)
+{
+    font-size: .95em;
+
+    opacity: .9;
+}
+.streamers span:nth-child(3)
+{
+    font-size: .8em;
+
+    opacity: .8;
+}
+
+.streamers:hover
+{
+    color: rgba(255,255,255,1);
+    background: #201c2b;
+}
+.navigation
+{
+    color: white;
+}
+
+/*.wrap .streamers
+{
+    color: rgba(250,250,250,.7);
+}
+.wrap .streamers:hover
+{
+    color: rgba(255,255,255,1);
+}
+*/
+#videos
+{
+    width: 80vw;
+    height: 100vh;
+    /*background: grey;*/
+}
+/*#videos img
+{
+    width: 50%;
+
+    opacity: .4;
+}*/
+#logo
+{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    width: inherit;
+    height: 75px;
+
+    opacity: 1;
+    background: #17141f;
+}
+#logo img
+{
+    width: 75px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.current
+{
+    width: inherit;
+    height: 400px;
+
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(https://camo.githubusercontent.com/60c67cf9ac2db30d478d21755289c423e1f985c6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f66726565636f646563616d702f776964652d736f6369616c2d62616e6e65722e706e67) center center;
+}
+
+.current-header a
+{
+    font-size: 1.5em;
+}
+.current a
+{
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.current a:hover
+{
+    text-decoration: underline;
+}
+.current-body
+{
+    display: flex; flex-direction: column;justify-content: center; align-items: flex-start;
+}
+.current-body span
+{
+    margin: 5px;
+}
+.current em
+{
+    font-weight: 700;
+}
+.current img
+{
+    margin: 50px 0 15px 0;
+}
+.current-footer,
+.current-body
+{
+    margin: 15px 0;
+}
+.current-footer
+{
+    display: flex; flex-direction: column;justify-content: center; align-items: center;
+}
+
+.current-footer span
+{
+    margin: 5px;
+}
+
+.current span:hover
+{
+    cursor: pointer;
+
+    color: #b9a3e3;
+}
+
+.navigation
+{
+    font-weight: 100;
+
+    width: inherit;
+    padding: 7px 15px 0 15px;
+}
+.navigation span
+{
+    width: 75px;
+    margin: 0 5px;
+    padding: 10px;
+
+    cursor: pointer;
+    text-align: center;
+
+    background: #6441a4;
+}
+hr
+{
+    width: 90%;
+
+    opacity: .1;
+    color: white;
+}
+.navigation span:hover
+{
+    background: #201c2b;
+}
+.prime
+{
+    font-weight: 400;
+
+    display: flex;
+
+    width: inherit;
+    height: 55px;
+    padding: 0;
+
+    text-decoration: underline;
+
+    color: #17141f;
+    background: #009cdc;
+
+    justify-content: center;
+    align-items: center;;;
+}
+.prime:hover
+{
+    opacity: 1;
+    background: #009cdc;
+}
+.prime span
+{
+    font-weight: 600;
+
+    color: #17141f;
+}
+.prime a
+{
+    color: inherit;
+}
+.prime em
+{
+    font-size: .8em;
+    font-style: italic;
+
+    text-decoration: none;
+
+    color: inherit;
+}
+.prime img
+{
+    width: 20px;
+    height: 20px;
+}
+.current
+{
+    padding: 30px;
+}
+.current img
+{
+    width: 100px; height: 100px;
+}
+.more
+{
+    font-size: .75em;
+    font-weight: 100;
+    line-height: normal;
+
+    display: flex;
+
+    height: 200px;
+
+    color: rgba(250,250,250,.8);
+    background: inherit;  justify-content: center; align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;justify-content: center; align-items: center; flex-wrap: wrap;
+}
+
+.more div
+{
+    display: flex; flex-direction: column;
+}
+
+.more span:hover
+{
+    color: rgba(255,255,255,1);
+    background: #201c2b;
+}
+.more span
+{
+    padding: 5px 20px;
+
+    cursor: pointer;
+}
+.more-title
+{
+    display: flex;
+
+    margin: 0 auto;
+
+    color: rgba(255,255,255,.8);
+
+    justify-content: center;
+}
