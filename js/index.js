@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // var clientID = "3fe05j8mavwd68cjoqwqs2e9oqsou02";
-    var twitchAPI = "https://wind-bow.hyperdev.space/twitch-api",
+    var twitchAPI = "https://wind-bow.gomix.me/twitch-api",
         streams = "/streams/",
         channels = "/channels/",
         freecodecamp = "freecodecamp",
