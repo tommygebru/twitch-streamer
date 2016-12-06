@@ -9,8 +9,8 @@ $(document).ready(function() {
     regStreamers.map(function(val) {
         $.getJSON(twitchAPI + streams + val + callback, function(data1) {
             if (data1.status === 404) {
-                $(".wrap").append("<div class='streamers offline delete'><span class='i-fix'><i class='ion-close'></i><img src='https://68.media.tumblr.com/2bab580406f69a3ff294bd0782d83c5a/tumblr_ohkte1EwLM1sj6gx1o1_540.png'></span><div class='info'><span>" + val + " </span><span>does not exist</span></div></div>");
-                $(".offline i").click(function() {
+                $(".wrap").append("<div class='streamers offline delete'><span class='i-fix'><span class='x'>X</span><img src='https://68.media.tumblr.com/2bab580406f69a3ff294bd0782d83c5a/tumblr_ohkte1EwLM1sj6gx1o1_540.png'></span><div class='info'><span>" + val + " </span><span>does not exist</span></div></div>");
+                $(".offline .x").click(function() {
                     $(this.closest(".delete")).remove();
                 });
             } else if (data1.stream === null) {
