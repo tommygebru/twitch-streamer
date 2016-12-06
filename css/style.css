@@ -80,6 +80,19 @@
     color: rgba(255,255,255,1);
     background: #201c2b;
 }
+a
+{
+    text-decoration: none;
+}
+.x
+{
+    font-size: .6em;
+    font-weight: 700;
+
+    padding: 25px 10px 25px 15px;
+
+    cursor: pointer;
+}
 /***********************************************
       O F F L I N E   AND   D E L E T E
 ***********************************************/
@@ -139,7 +152,7 @@
 }
 
 /***********************************************
-            
+
 ***********************************************/
 
 
@@ -344,7 +357,7 @@ hr
     height: 200px;
 
     color: rgba(250,250,250,.8);
-    background: inherit;  justify-content: center; align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;justify-content: center; align-items: center; flex-wrap: wrap;
+    background: inherit;  justify-content: center; align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;justify-content: center; align-items: center; flex-wrap: wrap;
 }
 
 .more div
